@@ -1,0 +1,10 @@
+{
+    "name": "Fullscreen Home",
+    "author": "FlanGrande",
+    "manifest_version": 1,
+    "target": "Home Screen",
+    "description": "Makes the home menu take the full height of the screen. Removed the 'Recent Games' title",
+    "inject": {
+        "shared.css": ["QuickAccess"]
+    }
+}
