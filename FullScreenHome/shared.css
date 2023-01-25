@@ -20,6 +20,18 @@
 
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0
 {
-	transform: scale(1.5) translateX(142px) translateY(-5px);
-	width: 100vw;
+	transform: scale(1.5) translateX(94px) translateY(-5px);
+	width: calc(100vw - 288px);
+}
+
+.basicgamecarousel_CarouselGameLabel_3CKji,
+.shared_svg_library_SteamDeckCompatInfo_2LcFI
+{
+	backface-visibility: hidden;
+}
+
+.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W
+{
+	width: 350px !important;
+	transition-duration: 0.08s;
 }
