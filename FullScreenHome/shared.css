@@ -1,11 +1,13 @@
+.gamepadhomerecentgames_RecentGamesHeader_35iRe
+{
+	position: relative;
+    top: 10px;
+	font-size: 18px;
+}
+
 .gamepadhome_RecentSection_39tNv
 {
 	height: 100vh;
-}
-
-.gamepadhomerecentgames_RecentGamesHeader_35iRe
-{
-	visibility: hidden;
 }
 
 .gamepadhomerecentgames_RecentGamesContainer_2_cRk
@@ -20,8 +22,8 @@
 
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0
 {
-	transform: scale(1.5) translateX(94px) translateY(-5px);
-	width: calc(100vw - 288px);
+	transform: scale(1.5) translateX(11.12vw) translateY(-5px);
+	width: 66.5vw;
 }
 
 .basicgamecarousel_CarouselGameLabel_3CKji,

@@ -1,10 +1,29 @@
 {
-    "name": "Fullscreen Home",
-    "author": "FlanGrande",
-    "manifest_version": 1,
-    "target": "Home Screen",
-    "description": "Makes the home menu take the full height of the screen. Removed the 'Recent Games' title",
-    "inject": {
-        "shared.css": ["QuickAccess"]
-    }
+	"name": "Fullscreen Home",
+	"author": "FlanGrande",
+	"target": "Home",
+	"version": "v1.3",
+	"description": "Makes the home menu take the full height of the screen. Remove the \"Recent Games\" title via toggle",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"Hide \"Recent Games\" title": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"No": {},
+				"Yes": {
+					"removetitle.css": [
+						"SP"
+					]
+				}
+			},
+			"components": []
+		}
+	}
 }

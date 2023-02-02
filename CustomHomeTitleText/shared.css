@@ -1,0 +1,10 @@
+.gamepadhomerecentgames_RecentGamesHeader_35iRe {
+    visibility: hidden;
+}
+
+.gamepadhomerecentgames_RecentGamesHeader_35iRe::after {
+    content: var(--flangrande-custom-text);
+    visibility: visible;
+    position: absolute;
+    left: 2.8vw;
+}

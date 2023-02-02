@@ -1,0 +1,10 @@
+{
+    "name": "Only games on Home",
+    "author": "FlanGrande",
+    "manifest_version": 1,
+    "target": "Home Screen",
+    "description": "Removes all the menus under the games carousel on the home screen. E.g. 'WHAT'S NEW', 'FRIENDS', 'RECOMMENDED', etc.",
+    "inject": {
+        "shared.css": ["QuickAccess"]
+    }
+}

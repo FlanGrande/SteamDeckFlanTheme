@@ -1,0 +1,66 @@
+{
+	"name": "Game Cover Shine Animation Color",
+	"author": "FlanGrande",
+	"target": "Tweak",
+	"version": "v1.0",
+	"description": "Changes the shine animation that plays when moving from one game to another on Home or Library.\n\nThe shine animates, a dazzling show,\nFrom one game to another it will glow.\nIn Home and Library it dances with grace,\nIlluminate the journey, a shining space.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"Shine Color": {
+			"type": "dropdown",
+			"values": {
+				"Custom Color": {
+                    "shared.css": ["SP"]
+                },
+				"Emerald": {
+                    "defaultColors/green.css": ["SP"]
+                },
+				"Sapphire": {
+                    "defaultColors/blue.css": ["SP"]
+                },
+				"Amethyst": {
+                    "defaultColors/purple.css": ["SP"]
+                },
+				"Bubblegum": {
+                    "defaultColors/pink.css": ["SP"]
+                },
+				"Ruby": {
+                    "defaultColors/red.css": ["SP"]
+                },
+				"Amber": {
+                    "defaultColors/orange.css": ["SP"]
+                },
+				"Obsidian": {
+                    "defaultColors/black.css": ["SP"]
+                },
+				"Bronze": {
+                    "defaultColors/bronze.css": ["SP"]
+                },
+				"Silver": {
+                    "defaultColors/silver.css": ["SP"]
+                },
+				"Gold": {
+                    "defaultColors/golden.css": ["SP"]
+                }
+			},
+			"components": [
+				{
+					"name": "Base Color",
+					"type": "color-picker",
+					"on": "Custom Color",
+					"default": "#FFFFFF",
+					"css_variable": "flangrande-game-cover-shine-color",
+					"tabs": [
+						"SP"
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,155 @@
+{
+	"name": "Home Custom Title Text",
+	"author": "FlanGrande",
+	"target": "Home",
+	"version": "v1.1",
+	"description": "Changes the \"Recent Games\" and \"Currently Playing\" texts with a custom one. Right now there's only a dropdown with predefined options, but you could edit the css file manually and pray that I don't update the theme! I'm also open to suggestions if you catch me on the DeckThemes discord server",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"Text": {
+			"type": "dropdown",
+			"default": "Welcome back you deckhead!",
+			"values": {
+				"Welcome back you deckhead!": {
+					"--flangrande-custom-text": [
+						"\"Welcome back you deckhead!\"",
+						"SP"
+					]
+				},
+				"Praise the sun \\[T]/": {
+					"--flangrande-custom-text": [
+						"\"Praise the sun \u005C\u005C\u005C\u005C[T]/\"",
+						"SP"
+					]
+				},
+				"Videogames promote violence": {
+					"--flangrande-custom-text": [
+						"\"Videogames promote violence\"",
+						"SP"
+					]
+				},
+				"Waka waka waka waka...": {
+					"--flangrande-custom-text": [
+						"\"Waka waka waka waka...\"",
+						"SP"
+					]
+				},
+				"Make a third save just in case...": {
+					"--flangrande-custom-text": [
+						"\"Make a third save just in case...\"",
+						"SP"
+					]
+				},
+				"It's gaming time!": {
+					"--flangrande-custom-text": [
+						"\"It's gaming time!\"",
+						"SP"
+					]
+				},
+				"Deck goes brrr...": {
+					"--flangrande-custom-text": [
+						"\"Deck goes brrr...\"",
+						"SP"
+					]
+				},
+				"My political affiliation is Gamer": {
+					"--flangrande-custom-text": [
+						"\"My political affiliation is Gamer\"",
+						"SP"
+					]
+				},
+				"Let's a go!": {
+					"--flangrande-custom-text": [
+						"\"Let's a go!\"",
+						"SP"
+					]
+				},
+				"GG": {
+					"--flangrande-custom-text": [
+						"\"GG\"",
+						"SP"
+					]
+				},
+				"Try finger but hole": {
+					"--flangrande-custom-text": [
+						"\"Try finger but hole\"",
+						"SP"
+					]
+				},
+				"FATALITY": {
+					"--flangrande-custom-text": [
+						"\"FATALITY\"",
+						"SP"
+					]
+				},
+				"War…war never changes": {
+					"--flangrande-custom-text": [
+						"\"War…war never changes\"",
+						"SP"
+					]
+				},
+				"Hey! Look! Listen!": {
+					"--flangrande-custom-text": [
+						"\"Hey! Look! Listen!\"",
+						"SP"
+					]
+				},
+				"Snake? Snake? SNAAAAAKE!": {
+					"--flangrande-custom-text": [
+						"\"Snake? Snake? SNAAAAAKE!\"",
+						"SP"
+					]
+				},
+				"Remember: No Russian": {
+					"--flangrande-custom-text": [
+						"\"Remember: No Russian\"",
+						"SP"
+					]
+				},
+				"War has changed": {
+					"--flangrande-custom-text": [
+						"\"War has changed\"",
+						"SP"
+					]
+				},
+				"It's me! Dunkey!": {
+					"--flangrande-custom-text": [
+						"\"It's me! Dunkey!\"",
+						"SP"
+					]
+				},
+				"\"...\" - Link": {
+					"--flangrande-custom-text": [
+						"\"\"...\" - Link\"",
+						"SP"
+					]
+				},
+				"死": {
+					"--flangrande-custom-text": [
+						"\"死\"",
+						"SP"
+					]
+				},
+				"Shadows die more than twice": {
+					"--flangrande-custom-text": [
+						"\"Shadows die more than twice\"",
+						"SP"
+					]
+				},
+				"死 - Shadows die more than twice": {
+					"--flangrande-custom-text": [
+						"\"死 - Shadows die more than twice\"",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		}
+	}
+}
