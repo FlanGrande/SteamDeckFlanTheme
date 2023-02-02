@@ -10,8 +10,8 @@
 			"type": "none",
 			"values": {
 				"_": {
-                    "shared.css": ["SP", "QuickAccess","MainMenu"]
-                }
+					"shared.css": ["SP", "QuickAccess","MainMenu"]
+				}
 			},
 			"components": [
 				{
